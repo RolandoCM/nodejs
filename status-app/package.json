@@ -1,0 +1,17 @@
+{
+  "name": "status-app",
+  "version": "1.0.2",
+  "description": "Return Node runtime status information",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node server.js"
+  },
+  "author": "Rolando Castillo <castillor493@gmail.com>",
+  "license": "IPL-1.0",
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.85.0",
+    "xml2js": "^0.4.19"
+  }
+}
